@@ -32,24 +32,10 @@
             app:defaultValue="true"/>
 
         <SwitchPreferenceCompat
-            android:key="pref_cam1_smoke"
-            android:title="흡연 알림"
-            app:defaultValue="true"/>
-
-        <SwitchPreferenceCompat
-            android:key="pref_cam1_abandon"
-            android:title="유기 알림"
-            app:defaultValue="true"/>
-
-        <SwitchPreferenceCompat
             android:key="pref_cam1_theft"
             android:title="절도 알림"
             app:defaultValue="true"/>
 
-        <SwitchPreferenceCompat
-            android:key="pref_cam1_assault"
-            android:title="폭행 알림"
-            app:defaultValue="true"/>
     </PreferenceCategory>
 
     <!-- 5) CAM2 세부 알림: CAM2 마스터에 종속 -->
@@ -74,24 +60,10 @@
             app:defaultValue="true"/>
 
         <SwitchPreferenceCompat
-            android:key="pref_cam2_smoke"
-            android:title="흡연 알림"
-            app:defaultValue="true"/>
-
-        <SwitchPreferenceCompat
-            android:key="pref_cam2_abandon"
-            android:title="유기 알림"
-            app:defaultValue="true"/>
-
-        <SwitchPreferenceCompat
             android:key="pref_cam2_theft"
             android:title="절도 알림"
             app:defaultValue="true"/>
 
-        <SwitchPreferenceCompat
-            android:key="pref_cam2_assault"
-            android:title="폭행 알림"
-            app:defaultValue="true"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
