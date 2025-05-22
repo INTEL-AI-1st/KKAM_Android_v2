@@ -1,10 +1,9 @@
 ## KKAM_Android
 
 
-##  스크린샷
 <p align="center">
-  <img src="ui내용.png" width="400" alt="ui 화면"><br><br>
-  <img src="ui내용2.png"  width="400" alt="ui2 화면">
+  <img src="docs/images/ui1.png" width="250" alt="로그인 화면">
+  <img src="docs/images/ui2.png" width="250" alt="메인 화면">
 </p>
 
 ## 개요
