@@ -2,9 +2,13 @@
 
 
 <p align="center">
-  <img src="ui내용.png" width="350" alt="ui 화면">
-  <img src="ui내용2.png"  width="350" alt="ui2 화면">
+  <img src="ui내용.png" width="350" alt="UI 화면">
 </p>
+
+<p align="center">
+  <img src="ui내용2.png" width="350" alt="UI 화면 2">
+</p>
+
 
 ## 개요
 무인 CCTV 영상을 실시간으로 분석하여 이상 행동(정상, 전도, 절도, 파손)을 탐지하는 Android 애플리케이션입니다. 
