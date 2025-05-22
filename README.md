@@ -2,8 +2,8 @@
 
 
 <p align="center">
-  <img src="docs/images/ui1.png" width="250" alt="로그인 화면">
-  <img src="docs/images/ui2.png" width="250" alt="메인 화면">
+  <img src="ui내용.png" width="250" alt="로그인 화면">
+  <img src="ui내용2.png" width="250" alt="메인 화면">
 </p>
 
 ## 개요
