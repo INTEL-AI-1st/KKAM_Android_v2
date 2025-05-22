@@ -2,9 +2,13 @@
 
 
 <p align="center">
-  <img src="ui내용.png" width="350" alt="UI 화면"><br><br>
-  <img src="ui내용2.png" width="350" alt="UI 화면 2">
+  ![UI 화면](ui내용.png)
 </p>
+
+<p align="center">
+  ![UI 화면 2](ui내용2.png)
+</p>
+
 
 
 ## 개요
