@@ -22,31 +22,31 @@
 - **로컬 및 원격 설정 관리**  
   - 사용자 환경설정 항목
 
-## 프로젝트 구조
-.
-├── android/
-│ ├── app/
-│ │ ├── src/
-│ │ │ ├── main/
-│ │ │ │ ├── java/com/example/kkam_backend/
-│ │ │ │ │ ├── ui/
-│ │ │ │ │ │ └── MainActivity.kt # 화면 진입점
-│ │ │ │ │ └── util/
-│ │ │ │ │ └── NotificationHelper.kt # 알림 관리 유틸
-│ │ │ │ └── res/
-│ │ │ │ ├── layout/ # XML 레이아웃
-│ │ │ │ ├── drawable/
-│ │ │ │ └── raw/
-│ │ │ │ └── alert_sound.mp3 # 이상 행동 감지 시 재생용 사운드
-│ │ │ └── assets/ # TFLite 모델 등
-│ │ └── build.gradle.kts
-│ └── settings.gradle.kts
-├── gradle/
-├── .gitignore
-├── build.gradle.kts
-├── gradle.properties
-├── gradlew / gradlew.bat
-└── tree.txt
+## 📂 프로젝트 구조
+
+- **android/**
+  - **app/**
+    - **src/**
+      - **main/**
+        - **java/com/example/kkam_backend/**
+          - **ui/**
+            - `MainActivity.kt` — 화면 진입점
+          - **util/**
+            - `NotificationHelper.kt` — 알림 관리 유틸
+        - **res/**
+          - **layout/** — XML 레이아웃
+          - **drawable/**
+          - **raw/**
+            - `alert_sound.mp3` — 경고음 파일
+      - **assets/** — TFLite 모델 등
+    - `build.gradle.kts`
+  - `settings.gradle.kts`
+- **gradle/**
+- `.gitignore`
+- `build.gradle.kts`
+- `gradle.properties`
+- `gradlew` / `gradlew.bat`
+- `tree.txt`
 
 
 ## 기술 스택
