@@ -3,8 +3,7 @@
 
 
 ## 개요
-무인 CCTV 영상을 실시간으로 분석하여 이상 행동(침입, 쓰러짐, 군집 등)을 탐지하는 Android 애플리케이션입니다.  
-딥러닝 모델(TensorFlow Lite)을 이용해 경량화하고, 현장에서 바로 알림을 보낼 수 있도록 설계되었습니다.
+무인 CCTV 영상을 실시간으로 분석하여 이상 행동(정상, 전도, 절도, 파손)을 탐지하는 Android 애플리케이션입니다. 
 
 ## 주요 기능
 - **로그인 화면**
@@ -24,31 +23,35 @@
 
 ##  프로젝트 구조
 
-- **android/**
-  - **app/**
-    - **src/**
-      - **main/**
-        - **java/com/example/kkam_backend/**
-          - **ui/**
-            - `MainActivity.kt` — 화면 진입점
-          - **util/**
-            - `NotificationHelper.kt` — 알림 관리 유틸
-        - **res/**
-          - **layout/** — XML 레이아웃
-          - **drawable/**
-          - **raw/**
-            - `alert_sound.mp3` — 경고음 파일
-      - **assets/** — TFLite 모델 등
-    - `build.gradle.kts`
-  - `settings.gradle.kts`
-- **gradle/**
-- `.gitignore`
-- `build.gradle.kts`
-- `gradle.properties`
-- `gradlew` / `gradlew.bat`
-- `tree.txt`
+```plaintext
+.
+├── android/
+│   ├── app/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/com/example/kkam_backend/
+│   │   │   │   │   ├── ui/
+│   │   │   │   │   │   └── MainActivity.kt         # 화면 진입점
+│   │   │   │   │   └── util/
+│   │   │   │   │       └── NotificationHelper.kt   # 알림 관리 유틸
+│   │   │   │   └── res/
+│   │   │   │       ├── layout/                      # XML 레이아웃
+│   │   │   │       ├── drawable/
+│   │   │   │       └── raw/
+│   │   │   │           └── alert_sound.mp3         # 경고음 파일
+│   │   │   └── assets/                              # TFLite 모델 등
+│   │   └── build.gradle.kts    
+│   └── settings.gradle.kts     
+├── gradle/                     
+├── .gitignore                  
+├── build.gradle.kts            
+├── gradle.properties           
+├── gradlew / gradlew.bat       
+└── tree.txt                    
+
 
 
 ## 기술 스택
 - 언어, 프레임워크 : Kotlin
 - 라이브러리 : Socket.IO (네트워크), Engine.IOWebSocket 트랜스포트 (이미지 로딩), Andriod Notification Channel/API(알림), MediaPlayer (사운드 재생)
+
