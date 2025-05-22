@@ -1,10 +1,15 @@
 ## KKAM_Android
 
 
+## 📸 스크린샷
+
 <p align="center">
-  <img src="ui내용.png" width="350" alt="UI 화면"><br><br>
+  <!-- 첫 번째 이미지 -->
+  <img src="ui내용.png" width="350" alt="UI 화면 1"><br><br>
+  <!-- 두 번째 이미지 -->
   <img src="ui내용2.png" width="350" alt="UI 화면 2">
 </p>
+
 
 
 
