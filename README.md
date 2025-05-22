@@ -55,3 +55,8 @@
 - 언어, 프레임워크 : Kotlin
 - 라이브러리 : Socket.IO (네트워크), Engine.IOWebSocket 트랜스포트 (이미지 로딩), Andriod Notification Channel/API(알림), MediaPlayer (사운드 재생)
 
+
+<p align="center">
+  <img src="ui내용.png" width="250" alt="ui 화면">
+  <img src="ui내용2.png"  width="250" alt="ui2 화면">
+</p>
